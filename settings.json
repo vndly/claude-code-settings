@@ -2,13 +2,20 @@
   "permissions": {
     "allow": [
       "Bash",
+      "BashOutput",
       "Read",
       "Edit",
+      "MultiEdit",
       "Write",
       "Glob",
       "Grep",
+      "LS",
+      "WebFetch",
       "WebSearch",
-      "Skill"
+      "Skill",
+      "Task",
+      "Agent",
+      "LSP"
     ]
   },
   "hooks": {
