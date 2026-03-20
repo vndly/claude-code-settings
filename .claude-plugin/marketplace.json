@@ -9,7 +9,7 @@
     {
       "name": "toolkit",
       "description": "Vndly Claude Plugin",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "source": "./toolkit",
       "author": {
         "name": "Mauricio Togneri",

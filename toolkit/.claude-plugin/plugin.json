@@ -1,7 +1,7 @@
 {
   "name": "toolkit",
   "description": "Vndly Claude Plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Vndly",
     "email": "vndly@gmail.com"
@@ -10,7 +10,7 @@
   "settings": {
     "statusLine": {
       "type": "command",
-      "command": "./scripts/statusline.sh",
+      "command": "bash ${CLAUDE_PLUGIN_ROOT}/scripts/statusline.sh",
       "padding": 0
     },
     "spinnerVerbs": {
