@@ -2,8 +2,8 @@
   "name": "vndly-marketplace",
   "description": "A Vndly marketplace for Claude Code Plugins",
   "owner": {
-    "name": "Mauricio Togneri",
-    "email": "mauricio.togneri@gmail.com"
+    "name": "Vndly",
+    "email": "vndly@gmail.com"
   },
   "plugins": [
     {
