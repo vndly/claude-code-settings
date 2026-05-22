@@ -50,13 +50,20 @@
     "padding": 0
   },
   "enabledPlugins": {
-    "frontend-design@claude-plugins-official": true
+    "frontend-design@claude-plugins-official": true,
+    "common@vndly": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
       "source": {
         "source": "github",
         "repo": "anthropics/claude-plugins-official"
+      }
+    },
+    "vndly": {
+      "source": {
+        "source": "github",
+        "repo": "vndly/marketplace"
       }
     }
   },
