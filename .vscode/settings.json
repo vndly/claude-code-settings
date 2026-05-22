@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Dark+",
   "workbench.editor.enablePreview": false,
   "editor.minimap.enabled": false,
   "editor.insertSpaces": true,
@@ -11,9 +11,5 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "eslint.run": "onSave",
-  "eslint.validate": [
-    "javascript",
-    "vue"
-  ],
+  "eslint.run": "onSave"
 }
