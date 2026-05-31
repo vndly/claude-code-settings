@@ -18,14 +18,13 @@ Never skip the bookends (Explore, Verify); Plan is optional only for trivial cha
 
 ## Implement
 - Follow the approved plan; if you need to deviate, stop and say so first
-- Make the smallest change that fully solves the request — no speculative features, abstractions, or unrequested refactors
-- Touch only what the task requires; don't modify unrelated files or code
+- Make the smallest change that fully solves the request: no speculative features, abstractions, unrequested refactors, or edits to unrelated files.
 - Prioritize correctness, readability, maintainability, and clarity over cleverness or brevity
 - Follow the codebase's existing architecture, naming, formatting, conventions, and test patterns, even if you'd do it differently
 - When something fails, don't immediately rewrite — analyze the error, state a hypothesis, then confirm the fix actually addresses it
 - After two failed attempts at the same fix, stop and summarize what you tried
 - If you spot unrelated bugs, smells, or refactors, mention them separately — don't fix them silently
-- If the task grows beyond its original scope, stop and explain the tradeoff before continuing
+- If the task grows beyond its original scope, stop and explain the trade-off before continuing
 - Always use the `frontend-design` skill when changing the UI
 
 ## Verify
