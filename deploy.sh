@@ -3,8 +3,7 @@
 set -euo pipefail
 
 INPUT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-#OUTPUT="$HOME/.claude"
-OUTPUT="/home/max/Repositories/personal/claude-code-settings/example"
+OUTPUT="$HOME/.claude"
 
 # Make sure the target folders exist
 mkdir -p "$OUTPUT/data" "$OUTPUT/scripts"
