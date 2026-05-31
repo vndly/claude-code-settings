@@ -1,0 +1,86 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "BashOutput",
+      "Read",
+      "Edit",
+      "MultiEdit",
+      "Write",
+      "Glob",
+      "Grep",
+      "LS",
+      "WebFetch",
+      "WebSearch",
+      "Skill",
+      "Task",
+      "Agent",
+      "LSP",
+      "mcp__ide__getDiagnostics",
+      "mcp__plugin_figma_figma__*"
+    ]
+  },
+  "hooks": {
+    "PermissionRequest": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.claude/scripts/notify.sh 'Claude: Permission request' ~/.claude/data/notification.ogg"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.claude/scripts/notify.sh 'Claude: Ready' ~/.claude/data/notification.ogg"
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/scripts/statusline.sh",
+    "padding": 0
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
+    "figma@claude-plugins-official": true,
+    "common@vndly": true
+  },
+  "extraKnownMarketplaces": {
+    "sway-marketplace": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/sway-labs/awesome-ai.git"
+      }
+    },
+    "claude-plugins-official": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
+    },
+    "vndly": {
+      "source": {
+        "source": "github",
+        "repo": "vndly/marketplace"
+      }
+    }
+  },
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": [
+      "Working"
+    ]
+  },
+  "effortLevel": "xhigh",
+  "voiceEnabled": true
+}
