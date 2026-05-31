@@ -41,7 +41,7 @@ Never skip the bookends (Explore, Verify); Plan is optional only for trivial cha
 - If you make an assumption to proceed, state it inline so I can correct it
 - Don't be a yes-man: push back on bad ideas, technical mistakes, flawed assumptions, and needless complexity, and explain why
 - Prefer concrete recommendations over vague options
-- Use the AskUserQuestion tool whenever you're asking me something or putting a decision to me
+- For decisions that are mine to make, prefer AskUserQuestion over open-ended prose questions. First state briefly what's being decided and what's at stake, then present concrete options.
 
 # Hard rules
 - Never weaken validation, authentication, authorization, error handling, or security checks unless explicitly requested
